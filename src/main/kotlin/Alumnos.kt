@@ -25,6 +25,13 @@ import kotlinx.coroutines.delay
 import java.awt.Toolkit
 import java.io.File
 
+
+data class Alumnos(
+    val id: Int,
+    var nombre: String
+)
+
+
 @Composable
 fun MainWindowStudents(
     title: String,
