@@ -5,7 +5,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.io.File
 
-class StudentViewModel(
+class StudentScreen(
     private val gestorFichero: IFiles,
     private val studentsFile: File
 ): IStudentViewModel {

@@ -41,7 +41,7 @@ fun StudentWindow(
 
         val fileManagement = GestorFiles()
         val studentsFile = File("studentList.txt")
-        val studentViewModel = StudentViewModel(fileManagement, studentsFile)
+        val studentViewModel = StudentScreen(fileManagement, studentsFile)
 
         MaterialTheme {
             Surface(
