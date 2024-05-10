@@ -22,9 +22,14 @@ fun main() = application {
         windowState = windowState,
         resizable = false,
         onCloseMainWindow = { exitApplication() }
-    )
+    )/*
+    * La idea era añadir 2 botones para poder ejecutar el programa.
+    * En el primer boton podrías hacerlo con Files
+    * y en el segundo boton con bbdd.
+    */
 }
 
+//Aquí la funcion para que funcionasen los botones
 @Composable
 fun SelectMethodButtons(
     onFileMethodSelected: () -> Unit,
